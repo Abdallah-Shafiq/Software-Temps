@@ -1,0 +1,376 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ddd;
+}
+
+.flex {
+  width: 99%;
+  margin: 0%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*----------------------------------------------------------Content--------*/
+.content {
+  background-color: white;
+  width: 22%;
+  margin: 1%;
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.content img {
+  margin: 7px;
+
+  height: 24%;
+  width: 91%;
+  margin: 5%;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content h3 {
+  margin-left: 5%;
+
+  font-size: 18px;
+}
+
+.icons {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fas {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+span {
+  color: gray;
+  margin-left: 20px;
+}
+
+hr {
+  opacity: 0.2;
+  background-color: black;
+  width: 95%;
+  height: 3px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.skills {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills h4 {
+  color: gray;
+}
+
+.barmain {
+  width: 95%;
+  height: 20px;
+
+  background-color: #ddd;
+  display: flex;
+  border-radius: 15px;
+}
+.barmain h3 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin: 3px;
+}
+
+.barmain div {
+  height: 100%;
+  background-color: rgb(119, 103, 103);
+  width: 85%;
+  border-radius: 15px;
+}
+
+#java {
+  width: 75%;
+}
+#html {
+  width: 90%;
+}
+#css {
+  width: 75%;
+}
+#c {
+  width: 20%;
+}
+
+.languages {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.languages .fas {
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.skills .fas {
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+#english {
+  width: 95%;
+}
+
+#spanish {
+  width: 0%;
+}
+#ger {
+  width: 30%;
+}
+
+/*-----------------------------------------------------------Content end--------*/
+
+/*---------------------------- Work Experince --------------------*/
+.work {
+  background-color: white;
+  width: 68%;
+  margin: 1%;
+  height: 1150px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.work .fas {
+  margin: 2%;
+}
+
+.datacontainer {
+  margin: 2%;
+}
+
+.current {
+  display: flex;
+  margin-left: 5px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-top: -3px;
+}
+
+.current h5 {
+  color: white;
+  margin: 1%;
+  padding: 5px;
+}
+/*---------------------------- Work Experince --------------------*/
+
+/*---------------------------- education --------------------*/
+.education {
+  background-color: white;
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/*---------------------------- education --------------------*/
+
+/*---------------------------- footer --------------------*/
+.footer {
+  width: 100%;
+  background-color: rgb(91, 104, 97);
+  height: 120px;
+  overflow: hidden;
+}
+
+.footer h4 {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  font-weight: 100;
+}
+
+.footer .fab {
+  color: black;
+  font-size: 30px;
+  margin-left: 49%;
+  margin-bottom: 10px;
+}
+
+/*---------------------------- footer --------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  h3,
+  h4 {
+    font-size: 15px;
+  }
+
+  p {
+    line-height: 25px;
+  }
+  .content,
+  .work,
+  .education {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .content img {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  .footer .fab {
+    margin-left: 45%;
+  }
+  .footer {
+    width: 100%;
+    margin: 0%;
+  }
+}
+/* -------------------------------------------------------------------------------------- */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767) {
+  .flex {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .content,
+  .work,
+  .education {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer .fab {
+    margin-left: 47%;
+  }
+
+  .content img {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .footer {
+    width: 100%;
+    margin: 0%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .flex {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .content,
+  .work,
+  .education {
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .education {
+    margin-left: 0%;
+  }
+
+  .footer {
+    width: 100%;
+    margin: 0%;
+  }
+  .content img {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .content {
+    width: 35%;
+    height: auto;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+  }
+
+  .work,
+  .education {
+    width: 60%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+  }
+
+  .education {
+    margin-left: 0%;
+  }
+
+  .footer {
+    width: 100%;
+    margin: 0%;
+  }
+  .content img {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media print {
+  .body {
+    background-color: white;
+  }
+  .content,
+  .work {
+    border: 1px solid;
+    border-radius: 3px;
+  }
+  .content {
+    width: 30%;
+    height: 1600px;
+  }
+  .work {
+    width: 65%;
+  }
+  .barmain {
+    border: 1px solid;
+  }
+  .barmain div {
+    background-color: #ddd;
+  }
+  hr {
+    opacity: 1;
+    background-color: black;
+    width: 95%;
+    height: 3px;
+    border-radius: 5px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

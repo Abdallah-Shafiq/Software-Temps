@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  background-color: rgba(214, 212, 212, 0.356);
+  margin: 5px;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+  color: rgb(12, 12, 12);
+}
+
+.navbar {
+  margin-top: 10px;
+  background-color: #1c1c1b;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+#dif {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.heading {
+  float: left;
+  margin-top: 15px;
+  background-color: white;
+  width: 65%;
+  height: 500px;
+  padding: 20px;
+}
+
+.heading h3,
+h5,
+p {
+  margin: 1%;
+}
+
+.image {
+  margin: 1%;
+  width: 98%;
+  background-color: thistle;
+  height: 50%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.about {
+  float: right;
+  width: 31%;
+  height: 250px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+.about h3,
+p,
+div {
+  margin: 1%;
+}
+
+.pop {
+  float: right;
+  width: 31%;
+  height: 400px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+.pop div {
+  margin: 0%;
+  width: 98%;
+  background-color: thistle;
+  height: 100px;
+  padding: 10px;
+}
+
+.foll {
+  float: right;
+  width: 31%;
+  height: 150px;
+  margin-top: 15px;
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.footer {
+  position: absolute;
+  margin: 1%;
+  background-color: thistle;
+  width: 98%;
+  height: 100px;
+  bottom: -65%;
+}
+.footer h1 {
+  text-align: center;
+}
